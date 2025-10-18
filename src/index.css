@@ -1,0 +1,34 @@
+/* ---- Font Imports FIRST ---- */
+@import "@fontsource/manrope/400.css";
+@import "@fontsource/manrope/600.css";
+@import "@fontsource/manrope/700.css";
+
+/* ---- Tailwind Layers ---- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---- Global Styling ---- */
+html, body, #root {
+  @apply h-full w-full bg-blackBase text-lightText font-sans;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #2a2a2a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3d3d3d;
+}
+
+button {
+  @apply focus:outline-none transition-all duration-200;
+}
+
+* {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
