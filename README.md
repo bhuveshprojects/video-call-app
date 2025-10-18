@@ -142,6 +142,7 @@ App runs on:
 
 * ✅ Source Code (GitHub)
 * ✅ Deployed Link (Vercel + Render)
+* ✅ Documentation
 * ✅ Instructions to Run Locally
 * ✅ Screenshots / Demo Video
 
@@ -160,4 +161,9 @@ App runs on:
 
 ---
 
+## 📘 Full Project Documentation
+
+You can view the complete project documentation (Introduction, Background, Objectives, Methodology, Screenshots, and Results) here:
+
+📄 **[View Full Documentation on Google Drive](https://drive.google.com/file/d/1wS641Cfqg5uY1znLedZ9Mze3AELnH2E8/view?usp=sharing)**
 
